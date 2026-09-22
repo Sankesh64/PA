@@ -1,0 +1,239 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: var(--color-white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-deep-green);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: var(--color-deep-green);
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--color-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  color: var(--color-deep-green);
+  margin-bottom: 24px;
+}
+
+.hero-content h1 span {
+  color: var(--color-orange);
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  padding: 12px 24px;
+}
+
+.hero-image-container {
+  position: relative;
+  background-color: var(--color-light-green);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Demo Section */
+.demo-section {
+  background-color: var(--color-deep-green);
+  color: var(--color-white);
+  padding: 80px 5%;
+}
+
+.demo-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.demo-header h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.demo-header h2 span {
+  color: var(--color-orange);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-card h3 {
+  font-size: 32px;
+  color: var(--color-yellow);
+  margin-bottom: 8px;
+}
+
+/* Adaptive Market Pack Section */
+.market-pack-section {
+  background-color: var(--color-white);
+}
+
+.market-pack-section h2 {
+  font-size: 40px;
+  color: var(--color-deep-green);
+  margin-bottom: 16px;
+}
+
+.demo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: start;
+}
+
+.card {
+  background: var(--color-cream);
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+/* Voice Interview Section */
+.voice-interview-section {
+  background-color: var(--color-light-green);
+}
+
+.voice-interview-section h2 {
+  font-size: 40px;
+  color: var(--color-deep-green);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-deep-green);
+  color: var(--color-white);
+  padding: 60px 5% 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.footer-top h2 {
+  font-size: 32px;
+}
+
+.footer-top h2 span {
+  color: var(--color-orange);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+}
+
+/* Stat card hover effect */
+.stat-card-hover {
+  cursor: default;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.stat-card-hover:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 20px 40px rgba(0, 0, 0, 0.25),
+    0 0 60px rgba(244, 194, 67, 0.08);
+}
+
+.stat-card-hover:hover h3 {
+  text-shadow: 0 0 30px rgba(244, 194, 67, 0.4);
+}
+
+@media (max-width: 1024px) {
+  .hero-section, .demo-container, .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
