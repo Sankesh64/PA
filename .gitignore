@@ -1,4 +1,11 @@
-# Logs
+node_modules/
+dist/
+backend/.venv/
+backend/__pycache__/
+backend/tests/__pycache__/
+*.py[cod]
+*.db
+*.sqlite3# Logs
 logs
 *.log
 npm-debug.log*

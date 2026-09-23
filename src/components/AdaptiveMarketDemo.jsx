@@ -16,9 +16,9 @@ export default function AdaptiveMarketDemo() {
   return (
     <section className="section-padding market-pack-section" id="adaptive">
       <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-        <h2>One Product Passport.<br />Every market, done properly.</h2>
+        <h2>Bamboo Storage Basket.<br />Prepared for every market.</h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '18px' }}>
-          It's not just text translation. It's structural product data transformation.
+          PА keeps the artisan story intact while adapting the product details for each marketplace requirement.
         </p>
       </div>
 

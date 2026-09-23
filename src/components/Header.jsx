@@ -17,8 +17,11 @@ export default function Header() {
       data-scroll-target="#main-scroll-container"
       style={{ zIndex: 100 }}
     >
-      <div className="logo">
-        PA <span>Product Adapter</span>
+      <div className="logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <span style={{ fontWeight: 700 }}>PА</span>
+        <span style={{ fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#6b7280' }}>
+          of the artisans.
+        </span>
       </div>
 
       <AnimatedBackground

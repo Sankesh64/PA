@@ -9,12 +9,12 @@ export default function Hero() {
       <section className="section-padding hero-section">
         <div className="hero-content">
           <h1>
-            One craft.<br />
-            <span>Multiple markets.</span>
+            PА for artisan makers.<br />
+            <span>Bamboo storage basket, ready for every market.</span>
           </h1>
           <p style={{ minHeight: '80px' }}>
             <TextEffect per='char' preset='fade'>
-              We take a single data source and intelligently translate it into perfectly formatted listings for every marketplace. Amazon, Shopify, Etsy, and beyond.
+              Turn one artisan product story into a complete product passport, packaged and ready for marketplaces, buyers, and global selling channels.
             </TextEffect>
           </p>
           <div className="hero-actions">
@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
           <p style={{ marginTop: '24px', fontSize: '14px', color: 'var(--text-muted)' }}>
             <CheckCircle2 size={16} style={{ display: 'inline', verticalAlign: 'text-bottom', marginRight: '4px' }} />
-            Built for the modern multi-channel commerce workflow.
+            Built to preserve craft, authenticity, and market-ready product data.
           </p>
         </div>
         
@@ -31,7 +31,7 @@ export default function Hero() {
           {/* Decorative element representing a product being translated */}
           <div style={{ background: '#fff', borderRadius: '16px', padding: '24px', width: '100%', boxShadow: '0 4px 20px rgba(0,0,0,0.05)' }}>
              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '16px' }}>
-                <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'bold' }}>PRODUCT PASSPORT</span>
+                <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'bold' }}>PА PRODUCT PASSPORT</span>
                 <span style={{ background: '#fef08a', color: '#854d0e', padding: '2px 8px', borderRadius: '12px', fontSize: '12px' }}>Ready for Amazon</span>
              </div>
              <h3 style={{ fontSize: '20px', marginBottom: '16px' }}>Bamboo Storage Basket</h3>
@@ -60,7 +60,7 @@ export default function Hero() {
 
       <section className="section-padding demo-section" id="demo">
         <div className="demo-header">
-          <h2>The gap is not talent.<br /><span>It's translation.</span></h2>
+          <h2>Handcrafted goods.<br /><span>Market-ready data.</span></h2>
         </div>
         <div className="stats-grid">
           <div className="stat-card stat-card-hover">
@@ -77,8 +77,8 @@ export default function Hero() {
           </div>
         </div>
         <p style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto', fontSize: '18px', opacity: 0.9 }}>
-          Product Adapter transforms a single central Product Passport into marketplace-specific representations.
-          It translates data structure, language requirements, and checks readiness instantly.
+          PА turns artisan product information into market-ready listings while keeping the story, materials, and craftsmanship intact.
+          It helps every basket, textile, and handmade item speak clearly across platforms.
         </p>
       </section>
     </>
